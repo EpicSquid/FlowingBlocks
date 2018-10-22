@@ -1,0 +1,71 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "forge:fluid"
+    },
+    "variants": {
+        "sand": [
+            {
+                "custom": {
+                    "fluid": "sand"
+                }
+            }
+        ],
+        "redsand": [
+            {
+                "custom": {
+                    "fluid": "redsand"
+                }
+            }
+        ],
+        "gravel": [
+            {
+                "custom": {
+                    "fluid": "gravel"
+                }
+            }
+        ],
+        "soulsand": [
+            {
+                "custom": {
+                    "fluid": "soulsand"
+                }
+            }
+        ],
+        "magma": [
+            {
+                "custom": {
+                    "fluid": "magma"
+                }
+            }
+        ],
+        "ice": [
+            {
+                "custom": {
+                    "fluid": "ice"
+                }
+            }
+        ],
+        "slime": [
+            {
+                "custom": {
+                    "fluid": "slime"
+                }
+            }
+        ],
+        "cement": [
+            {
+                "custom": {
+                    "fluid": "cement"
+                }
+            }
+        ],
+        "asphalt": [
+            {
+                "custom": {
+                    "fluid": "asphalt"
+                }
+            }
+        ]
+    }
+}
