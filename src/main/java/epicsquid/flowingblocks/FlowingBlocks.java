@@ -1,6 +1,5 @@
 package epicsquid.flowingblocks;
 
-import epicsquid.mysticallib.MysticalLib;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Loader;
@@ -14,7 +13,7 @@ public class FlowingBlocks {
   public static final String MODID = "flowingblocks";
   public static final String NAME = "Flowing Blocks";
   public static final String VERSION = "@VERSION@";
-  public static final String DEPENDENCIES = "required-before:mysticallib@[" + MysticalLib.VERSION + ",)";
+  public static final String DEPENDENCIES = "required-before:mysticallib";
   public static ModContainer CONTAINER = null;
 
   static {
