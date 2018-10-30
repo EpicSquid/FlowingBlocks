@@ -9,11 +9,12 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.ModContainer;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = FlowingBlocks.MODID, name = FlowingBlocks.NAME, version = FlowingBlocks.VERSION, dependencies = "required-after:mysticallib@[" + MysticalLib.VERSION + ",)")
+@Mod(modid = FlowingBlocks.MODID, name = FlowingBlocks.NAME, version = FlowingBlocks.VERSION, dependencies = FlowingBlocks.DEPENDENCIES)
 public class FlowingBlocks {
   public static final String MODID = "flowingblocks";
   public static final String NAME = "Flowing Blocks";
   public static final String VERSION = "@VERSION@";
+  public static final String DEPENDENCIES = "required-before:mysticallib@[" + MysticalLib.VERSION + ",)";
   public static ModContainer CONTAINER = null;
 
   static {
